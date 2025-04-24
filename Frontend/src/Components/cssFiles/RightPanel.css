@@ -1,0 +1,22 @@
+.right-panel {
+    width: 200px;
+    background: #ddd;
+    padding: 15px;
+  }
+  
+  .action-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .action-button:hover {
+    background: #0056b3;
+  }
+  
