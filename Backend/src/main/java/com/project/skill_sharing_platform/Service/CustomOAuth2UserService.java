@@ -7,10 +7,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.oauth2.client.userinfo.*;
 import org.springframework.security.oauth2.core.user.*;
 import org.springframework.stereotype.Service;
+import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
 
 import java.util.Optional;
 
-@Service
+
 
 @Service
 public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequest, OAuth2User> {
@@ -41,4 +42,3 @@ public class CustomOAuth2UserService implements OAuth2UserService<OAuth2UserRequ
 }
 
 
-import org.springframework.security.oauth2.core.OAuth2AuthenticationException;
